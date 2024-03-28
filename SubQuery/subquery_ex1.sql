@@ -1,3 +1,4 @@
+/* 그룹별 조건에 맞는 식당 구하기 (여러개의 sub query 사용하는 문제) */
 SELECT M.MEMBER_NAME, R.REVIEW_TEXT, DATE_FORMAT(R.REVIEW_DATE, '%Y-%m-%d') AS REVIEW_DATE
 FROM MEMBER_PROFILE AS M 
     JOIN REST_REVIEW AS R
